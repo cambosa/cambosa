@@ -3,8 +3,6 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)](https://ubuntu.com/)
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows/)
 
-[![Stats](https://github-readme-stats.vercel.app/api?username=cambosa&count_private=true&show_icons=true&theme=vision-friendly-dark)](https://github.com/cambosa/github-readme-stats)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cambosa&layout=compact&theme=vision-friendly-dark)](https://github.com/cambosa/github-readme-stats)
 
 [![](profile-3d-contrib/profile-customize.svg)](https://cambosa.github.com)
