@@ -246,14 +246,14 @@ def gen_image(g: Github):
     # draw.text((x_prompt, prompt_y), ": $", fill=text_color, font=font)
 
     os.makedirs("out", exist_ok=True)
-    image.save("out/fetch.png")
+    image.save("out/fetch.jpg")
     #image.show()
 
 def generate_readme(g: Github):
         gen_image(g)
         
-        image_pattern = r'<div align=\'center\'>\s*<img src=\'out/fetch\.png\' alt=\'Github Fetch\'>\s*</div>'
-        image_content = "\n## Example Output\n<div align='center'>\n  <img src='out/fetch.png' alt='Github Fetch'>\n</div>\n"
+        image_pattern = r'<div align=\'center\'>\s*<img src=\'out/fetch\.jpg\' alt=\'Github Fetch\'>\s*</div>'
+        image_content = "\n## Example Output\n<div align='center'>\n  <img src='out/fetch.jpg' alt='Github Fetch'>\n</div>\n"
         
         try:
             with open("README.md", "r", encoding="utf-8") as f:
